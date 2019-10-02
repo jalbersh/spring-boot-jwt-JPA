@@ -1,4 +1,4 @@
-package com.javainuse.model;
+package com.albersheim.model;
 
 public class UserDTO {
 	private String username;

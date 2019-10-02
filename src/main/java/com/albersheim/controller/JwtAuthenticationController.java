@@ -1,6 +1,4 @@
-package com.javainuse.controller;
-
-import java.util.Objects;
+package com.albersheim.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -14,13 +12,13 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import com.javainuse.service.JwtUserDetailsService;
+import com.albersheim.service.JwtUserDetailsService;
 
 
-import com.javainuse.config.JwtTokenUtil;
-import com.javainuse.model.JwtRequest;
-import com.javainuse.model.JwtResponse;
-import com.javainuse.model.UserDTO;
+import com.albersheim.config.JwtTokenUtil;
+import com.albersheim.model.JwtRequest;
+import com.albersheim.model.JwtResponse;
+import com.albersheim.model.UserDTO;
 
 @RestController
 @CrossOrigin

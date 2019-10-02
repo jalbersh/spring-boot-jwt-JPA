@@ -1,4 +1,4 @@
-package com.javainuse.model;
+package com.albersheim.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 

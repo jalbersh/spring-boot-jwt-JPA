@@ -1,4 +1,4 @@
-package com.javainuse;
+package com.albersheim;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
