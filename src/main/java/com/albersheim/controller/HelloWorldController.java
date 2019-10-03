@@ -11,4 +11,9 @@ public class HelloWorldController {
 		return "Hello World";
 	}
 
+	@RequestMapping({ "/booger" })
+	public String booger() {
+		return "Hello Booger";
+	}
+
 }
